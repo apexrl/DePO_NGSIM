@@ -1,0 +1,23 @@
+medium_ppuu_i80:
+  description: "PPUU, NGSIM, I80"
+  file_paths: [
+    ./demos/ppuu/medium_ppuu_i80_stack-1.pkl
+  ]
+  eval_split: [
+    ./demos/ppuu/medium_test_ids.pkl
+  ]
+  train_split: [
+    ./demos/ppuu/medium_train_ids.pkl
+  ]
+
+medium_ppuu_multitype_i80:
+  description: "PPUU, NGSIM, I80"
+  file_paths: [
+    ./demos/ppuu/medium_ppuu_multitype_i80_stack-1.pkl
+  ]
+  eval_split: [
+    ./demos/ppuu/medium_test_ids.pkl
+  ]
+  train_split: [
+    ./demos/ppuu/medium_train_ids.pkl
+  ]
